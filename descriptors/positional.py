@@ -1,7 +1,7 @@
 import numpy as np
 from scipy import stats
 from sklearn.decomposition import PCA
-from code_descriptors_postural_control.constants import labels
+from constants import labels
 
 
 

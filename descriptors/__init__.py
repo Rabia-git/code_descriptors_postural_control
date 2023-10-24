@@ -1,5 +1,5 @@
-from code_descriptors_postural_control.descriptors import positional, dynamic, frequentist, stochastic
-from code_descriptors_postural_control.constants import labels
+from descriptors import positional, dynamic, frequentist, stochastic
+from constants import labels
 
 
         

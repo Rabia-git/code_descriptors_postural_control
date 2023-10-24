@@ -6,11 +6,14 @@ import numpy as np
 from numpy.core.defchararray import upper
 from scipy.signal import butter, filtfilt, periodogram, savgol_filter, welch
 
-from code_descriptors_postural_control.stabilogram.swarii import SWARII
+#from code_descriptors_postural_control.stabilogram.swarii import SWARII
+from stabilogram.swarii import SWARII
 
 from scipy.fft import rfft, rfftfreq
 
-from code_descriptors_postural_control.constants import labels
+#from code_descriptors_postural_control.constants import labels
+from constants import labels
+
 
 class Stabilogram():
     def __init__(self):

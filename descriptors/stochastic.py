@@ -1,7 +1,7 @@
 
 import statsmodels.api as sm
 import numpy as np
-from code_descriptors_postural_control.constants import labels
+from constants import labels
 
 
 
